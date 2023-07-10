@@ -3,11 +3,11 @@ from robot.libraries.BuiltIn import BuiltIn
 
 
 @library(scope='GLOBAL')
-class FullPageScreenShot:
+class FullPageScreenshot:
     """Custom implementation to capture full page screenshot with Selenium and Robot framework.
 
     Usage:
-    |   Library     ../../resources/ScreenshotHelper.py
+    |   Library     ${your path}/FullPageScreenshot.py
     |   Library     SeleniumLibrary    run_on_failure=Capture Full Page Screenshot
 
     Works in headless mode only.
